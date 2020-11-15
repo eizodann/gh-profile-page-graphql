@@ -1,3 +1,4 @@
+/* HEADER STYLING */
 .header {
   display: flex;
   background-color: #24292e;
@@ -81,7 +82,62 @@
   border-radius: 50%;
   padding-right: 3px;
 }
+/* HEADER STYLING */
 
+/* TAB-HEADER STYLING */
+.tab-header {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.tab-header > * {
+  display: flex;
+  align-items: center;
+}
+
+.tab-left {
+  flex-basis: 25%;
+}
+
+.tab-middle {
+  flex-basis: 60%;
+  justify-content: space-evenly;
+}
+
+.tab-middle > div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tab-middle > div:hover {
+  border-bottom: 2px solid #d1d5da;
+}
+
+.tab-middle > div:nth-child(2) {
+  border-bottom: 2px solid #f9826c;
+  font-weight: 500;
+}
+
+.tab-middle p {
+  margin-left: 7px;
+}
+
+.tab-middle #repo-count {
+  background-color: #d1d5da80;
+  padding: 0px 6px;
+  border-radius: 12px;
+  zoom: 0.85;
+  margin-right: 15px;
+}
+
+.tab-right {
+  flex-basis: 15%;
+}
+
+/* GLOBAL */
 svg:not(:root) {
   overflow: hidden;
 }
