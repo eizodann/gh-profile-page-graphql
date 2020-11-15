@@ -16,6 +16,11 @@
 .left-header i {
   padding-left: 10px;
   zoom: 1.9;
+  cursor: pointer;
+}
+
+.left-header i:hover {
+  color: #c8c9cb;
 }
 
 .middle-header {
@@ -53,6 +58,10 @@
   cursor: pointer;
 }
 
+.middle-header > .search + div p:hover {
+  color: #c8c9cb;
+}
+
 .right-header {
   /* justify-content: flex-end; */
   justify-content: space-evenly;
@@ -62,6 +71,10 @@
 
 .right-header > span {
   cursor: pointer;
+}
+
+.right-header > span:hover {
+  color: #c8c9cb;
 }
 
 #small-avatar-img {
