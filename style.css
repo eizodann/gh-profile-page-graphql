@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  background-color: #24292e;
+  color: white;
+  align-items: center;
+}
+
+.header > * {
+  display: flex;
+  align-items: center;
+}
+
+.left-header {
+  flex-basis: 5%;
+}
+.middle-header {
+  flex-basis: 75%;
+}
+
+.middle-header > .search,
+.search + div {
+  display: flex;
+}
+
+.middle-header > .search {
+  border: 1px solid #444d56;
+  flex-basis: 40%;
+  border-radius: 4px;
+  padding: 4px;
+  padding-left: 14px;
+}
+
+.middle-header > .search + div {
+  flex-basis: 60%;
+  justify-content: space-around;
+}
+
+.right-header {
+  justify-content: flex-end;
+  flex-basis: 20%;
+}
+
+#small-avatar-img {
+  border-radius: 50%;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+.octicon {
+  vertical-align: text-bottom;
+}
+.octicon {
+  display: inline-block;
+  vertical-align: text-top;
+  fill: currentColor;
+}
