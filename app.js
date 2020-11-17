@@ -3,7 +3,7 @@ let avatarImg;
 const myHeaders = new Headers();
 myHeaders.append(
   "Authorization",
-  "Bearer b94a55ecec43e27cf34a79beb3f88f447095b1b0"
+  "Bearer 2fc785a48ed767a5554c27b7326bc880d34000ab"
 );
 myHeaders.append("Content-Type", "application/json");
 
