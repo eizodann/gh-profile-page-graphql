@@ -1,10 +1,7 @@
 let avatarImg;
 
 const myHeaders = new Headers();
-myHeaders.append(
-  "Authorization",
-  "Bearer 2fc785a48ed767a5554c27b7326bc880d34000ab"
-);
+myHeaders.append("Authorization", "Bearer " + config.GH_PUBLIC_REPO_KEY);
 myHeaders.append("Content-Type", "application/json");
 
 const number_of_repos = 20;
