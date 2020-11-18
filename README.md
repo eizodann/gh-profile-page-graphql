@@ -1,5 +1,7 @@
 # gh-profile-page-graphql
 
-Github profile page clone showing the repository tab section
+Github Profile page replica showing the repository tab section.
 
-GraphQL API used to query backend
+GraphQL API used to query server.
+
+► [Click Here](https://eizodann.github.io/gh-profile-page-graphql/) to open the page.
