@@ -1,6 +1,6 @@
 # gh-profile-page-graphql
 
-Github Profile page replica showing the repository tab section.
+Responsive Github Profile page replica showing the repository tab section.
 
 GraphQL API used to query server.
 
