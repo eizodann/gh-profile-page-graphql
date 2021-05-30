@@ -1,5 +1,10 @@
 let avatarImg;
 
+//get current year;
+const date = new Date();
+const currentYear = date.getFullYear();
+document.getElementById("current-year").innerHTML = currentYear
+
 function dropdownFn() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
